@@ -1,0 +1,26 @@
+<mvc:View controllerName="C05.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core" xmlns:t="sap.m.Text">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <!-- <l:VerticalLayout>
+                <Input id="idInput" submit="onEnter"/>
+                <Text id="idText"/>
+            </l:VerticalLayout> -->
+                <l:VerticalLayout>
+                    <Input id="idInput1" width="100%"/>
+                    <Select id="idSelect" width="100%">
+                        <items>
+                            <core:Item key ="plus" text="+" />
+                            <core:Item key ="minus" text="-" />
+                            <core:Item key ="multiple" text="*" />
+                            <core:Item key ="divide" text="/" />
+                        </items>
+                    </Select>
+                    <Input id="idInput2" width="100%"/>
+                    <Button width="100%" text="Button Text" type="Emphasized" press="onButtonPress"/>
+                </l:VerticalLayout>
+        </content>
+    </Page>
+</mvc:View>
